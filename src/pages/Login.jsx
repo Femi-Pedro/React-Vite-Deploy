@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Login = () => {
+
+  const [currencyState, setCurrencyState] = useState('Sign Up')
+
   return (
-    <div>Login</div>
+    <form action=""></form>
   )
 }
 
